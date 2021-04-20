@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.multipleattributes;
+package effectivejava.chapter6.item34.multipleattributes;
 
 /* Demonstrates:
     multiple attributes

@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.comparison;
+package effectivejava.chapter6.item34.comparing;
 
 
 public class CompareToExample {

@@ -1,10 +1,9 @@
-package effectivejava.chapter7.item34.constants;
+package effectivejava.chapter6.item34.constants;
 
-import java.util.stream.Stream;
 /*
      By default, enums don’t require constructor definitions
      and their default values are always the string used in the declaration
  */
 public enum Orange {
-    NAVEL, TEMPLE, BLOOD
+    NAVEL, TEMPLE, BLOOD, FUJI
 }

@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34;
+package effectivejava.chapter6.item34.custombehavior;
 
 /*
 Demonstrates

@@ -1,5 +1,7 @@
-package effectivejava.chapter7.item34;
-
+package effectivejava.chapter6.item34.custombehavior;
+/* switch statement is brittle
+*  see OperationImproved.java for a better approach
+* */
 public enum Operation {
     PLUS, MINUS, TIMES, DIVIDE;
 

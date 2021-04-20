@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.multipleattributes;
+package effectivejava.chapter6.item34.multipleattributes;
 /* Demonstrates Power of ENUMs
     If you remove a member from the Planet ENUM, this still works.
 */

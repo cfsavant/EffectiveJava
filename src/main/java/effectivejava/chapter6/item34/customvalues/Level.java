@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.customvalues;
+package effectivejava.chapter6.item34.customvalues;
 /* Demonstrates how custom values work
 *   1. create constructor
 *   2. pass in values

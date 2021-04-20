@@ -1,6 +1,6 @@
-package effectivejava.chapter7.item34.printnames;
+package effectivejava.chapter6.item34.streams;
 
-import effectivejava.chapter7.item34.constants.Orange;
+import effectivejava.chapter6.item34.constants.Orange;
 
 import java.util.Arrays;
 /*

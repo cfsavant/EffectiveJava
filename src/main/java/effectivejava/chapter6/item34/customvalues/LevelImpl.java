@@ -1,6 +1,4 @@
-package effectivejava.chapter7.item34.customvalues;
-
-import effectivejava.chapter7.item34.constants.Orange;
+package effectivejava.chapter6.item34.customvalues;
 
 import java.util.Arrays;
 

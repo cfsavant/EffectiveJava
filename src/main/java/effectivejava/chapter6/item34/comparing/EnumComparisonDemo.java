@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.comparison;
+package effectivejava.chapter6.item34.comparing;
 
 /* Java program to illustrate enum members comparison
 == operator
@@ -21,16 +21,17 @@ public class EnumComparisonDemo {
         FRI,
         SAT,
         SUN }
+
     public static void main(String[] args)
     {
-        Day d = null;
-        //d = Day.WED;
+        Day mySelectedDay = null;
+        mySelectedDay = Day.WED;
         // Comparing an enum member with null
         // using == operator
-       System.out.println(d == Day.MON);
+       System.out.println(mySelectedDay == Day.MON);
 
-        // Comparing an enum member with null
-        // using .equals() method
-        //System.out.println(d.equals(Day.MON));
+//         Comparing an enum member with null
+//         using .equals() method
+//        System.out.println(mySelectedDay.equals(Day.MON));
     }
 }

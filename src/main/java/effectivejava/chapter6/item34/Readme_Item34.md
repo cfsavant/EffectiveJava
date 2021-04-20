@@ -2,8 +2,11 @@
 
 PREREQUISITES
 
+    * Only for more advanced implementations 
+     Know how to abide by java equals hashcode contracts
      https://www.baeldung.com/java-equals-hashcode-contracts
-          You must override hashCode() in every class that overrides equals(). 
+          
+        You must override hashCode() in every class that overrides equals(). 
           Failure to do so will result in a violation of the general contract for Object.hashCode(),
           which will prevent your class from functioning properly in conjunction with all hash-based collections:
                HashMap, HashSet, and Hashtable.
@@ -19,17 +22,20 @@ PREREQUISITES
           Chapter 3 of Effective Java
 
 DISADVANTAGES of CONSTANTS
+    
+    Before enums, constants had to be used to represent an enumeration of constants.
 
-     must use prefix (vs namespace)
-     rigid 
+     must use prefix (vs namespace) to isolate constants with the same name.
      can't easily obtain string version of var name
      hard to iterate over all the int enum constants in a group
+     doesn't have the capabilities of an Object
 
 
 ADVANTAGES of ENUMS
     
     namespaces (identically named constants coexist peacefully)
-    type safety
+
+    type safe
         Both the method argument type and value are checked (compile-time errors)
             invalid type or value (not a field in the enum type) results in compile time error
 
@@ -43,14 +49,15 @@ ADVANTAGES of ENUMS
         implement arbitrary interfaces
         use abstract methods for customized behavior
 
-    provide high-quality implementations of all the Object methods
-        implement Comparable (Item 14) and Serializable (Chapter 12)
+    Reliable comparisons compared to string constants.
+        * there are some best practices to know to avoid NPEs.
 
-    Returns an array of its values in the order they were declared via the static values method
-    Generate Printable strings (field name) by calling their toString method.
-
-     Other methods provided by Enum:
-     https://www.tutorialspoint.com/java/lang/java_lang_enum.htm
+    Provides built in functionality
+        * implement Comparable (Item 14) and Serializable (Chapter 12)
+        * Returns an array of its values in the order they were declared via the static values method
+        * Generate Printable strings (field name) by calling their toString method.
+        * Other methods provided by Enum:
+         https://www.tutorialspoint.com/java/lang/java_lang_enum.htm
 
 RULES
 

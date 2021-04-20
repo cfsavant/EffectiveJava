@@ -1,4 +1,4 @@
-package effectivejava.chapter7.item34.customvaluesprinted;
+package effectivejava.chapter6.item34.customvaluesprinted;
 /*
     Demonstrates printing the values via for loop
     and valueOf
