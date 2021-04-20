@@ -74,6 +74,7 @@ HOW TO USE:
     
 
 EXAMPLES
+*   Good reference: https://www.tutorialspoint.com/can-we-create-an-enum-with-custom-values-in-java
 
     ConstantsExample: 
         allows you to see what they mean by a constant.
@@ -83,6 +84,7 @@ EXAMPLES
 
     Level.java
           example with custom values 
+          Good reference: https://www.tutorialspoint.com/can-we-create-an-enum-with-custom-values-in-java
 
     Planet:
         example with multiple attributes for each member and dynamic values
